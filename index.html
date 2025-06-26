@@ -1,1 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conexão Campo Cidade</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Conexão Campo Cidade</h1>
+            <p>Unindo tradição e modernidade</p>
+        </div>
+    </header>
 
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#eventos">Eventos</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Celebrando a integração entre o rural e o urbano</h2>
+            <a href="#eventos" class="btn">Participe</a>
+        </div>
+    </section>
+
+    <section id="sobre" class="container">
+        <h2>Sobre a Iniciativa</h2>
+        <div class="content">
+            <img src="https://images.unsplash.com/photo-1497440001375-f6e0a50f93c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Campo e cidade">
+            <p>A Conexão Campo Cidade é um movimento que busca fortalecer os laços entre as áreas rurais e urbanas, promovendo o entendimento mútuo, o comércio justo e a valorização das tradições. Acreditamos que essa integração é essencial para um futuro sustentável e harmonioso.</p>
+        </div>
+    </section>
+
+    <section id="eventos" class="bg-light">
+        <div class="container">
+            <h2>Próximos Eventos</h2>
+            <div class="eventos-grid">
+                <div class="evento">
+                    <h3>Feira de Produtos Locais</h3>
+                    <p class="data">15/07/2023</p>
+                    <p>Venha conhecer e adquirir produtos diretamente dos produtores rurais da nossa região.</p>
+                </div>
+                <div class="evento">
+                    <h3>Workshop Agricultura Urbana</h3>
+                    <p class="data">22/07/2023</p>
+                    <p>Aprenda técnicas para cultivar seus próprios alimentos mesmo em espaços pequenos.</p>
+                </div>
+                <div class="evento">
+                    <h3>Festival Cultural</h3>
+                    <p class="data">05/08/2023</p>
+                    <p>Música, dança e gastronomia que celebram a riqueza das tradições rurais.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="container">
+        <h2>Galeria</h2>
+        <div class="galeria-grid">
+            <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Campo">
+            <img src="https://images.unsplash.com/photo-1470004914212-05527e49370b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Cidade">
+            <img src="https://images.unsplash.com/photo-1516054575922-f0b8eeadec1a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Feira">
+            <img src="https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Agricultura">
+        </div>
+    </section>
+
+    <section id="contato" class="bg-light">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <form>
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+    </footer>
+</body>
+</html>
